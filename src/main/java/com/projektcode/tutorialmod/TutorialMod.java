@@ -1,5 +1,6 @@
 package com.projektcode.tutorialmod;
 
+import com.projektcode.tutorialmod.block.ModBlocks;
 import com.projektcode.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,5 +23,6 @@ public class TutorialMod implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
